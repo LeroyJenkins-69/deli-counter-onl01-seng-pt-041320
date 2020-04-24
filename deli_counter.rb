@@ -10,5 +10,9 @@ def take_a_number(katz_deli,name)
   puts "welcome"
 end 
 
-def now_serving 
+def now_serving
+  puts ""
+  while katz_deli.size == 0 
+  puts "there is nobody witing to be served!"
+  end
 end 
