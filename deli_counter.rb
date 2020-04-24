@@ -1,6 +1,6 @@
 def line(katz_deli)
   katz_deli = []
-  while katz_deli.length = nil 
+  while katz_deli.size == 0
   puts "The line is currently empty."
   end
 end
